@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Syafaat - Jadilah Bagian dari Komunitas</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #E1306C, #FD1D1D, #F77737);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            animation: gradientShift 8s infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background: linear-gradient(135deg, #E1306C, #FD1D1D, #F77737); }
+            50% { background: linear-gradient(135deg, #F77737, #E1306C, #FD1D1D); }
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.4em;
+            margin-top: 10px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background: #ff6f61;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #ff9671;
+        }
+
+        /* Highlight Section */
+        .highlight {
+            text-align: center;
+            padding: 40px 20px;
+            background: #f3f3f3;
+        }
+
+        .highlight h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .highlight .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-item {
+            flex: 1 1 calc(33% - 40px);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-item:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-item i {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #ff6f61;
+        }
+
+        /* Testimonial Section */
+        .testimonials {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px auto;
+            max-width: 600px;
+        }
+
+        .testimonial p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .testimonial strong {
+            color: #ff6f61;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Gabung Bersama Komunitas Syafaat</h1>
+        <p>Dapatkan konten menarik setiap hari! Ikuti sekarang dan jangan ketinggalan.</p>
+        <a href="#social-section" class="cta-btn">Ikuti Sekarang</a>
+    </header>
+
+    <!-- Highlight Section -->
+    <section class="highlight">
+        <h2>Apa yang Akan Anda Dapatkan?</h2>
+        <div class="features">
+            <div class="feature-item">
+                <i class="fab fa-instagram"></i>
+                <h3>Inspirasi Harian</h3>
+                <p>Kami berbagi tips, ide, dan motivasi untuk memperkaya hari Anda.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fab fa-facebook-f"></i>
+                <h3>Komunitas Positif</h3>
+                <p>Bergabung dengan komunitas yang saling mendukung dan penuh energi positif.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fab fa-tiktok"></i>
+                <h3>Konten Menghibur</h3>
+                <p>Video kreatif dan menghibur yang membuat Anda selalu tersenyum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <h2>Testimoni Pengikut</h2>
+        <div class="testimonial">
+            <p>"Konten Syafaat benar-benar menginspirasi saya setiap hari. Saya tidak pernah melewatkan satu postingan pun!"</p>
+            <strong>- Aisyah, Jakarta</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Video di TikTok sangat kreatif. Sangat menyenangkan untuk ditonton!"</p>
+            <strong>- Rudi, Bandung</strong>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section id="social-section" class="highlight">
+        <h2>Ikuti Saya Sekarang</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/syafaat_paiker/profilecard/?igsh=MTY4NjdrZ3diYXh3ag==" target="_blank" class="social-btn instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61558728583368" target="_blank" class="social-btn facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://vm.tiktok.com/ZSjGg2Hak/" target="_blank" class="social-btn tiktok">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> Syafaat. bengkulu.</p>
+    </footer>
+</body>
+</html>
